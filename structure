@@ -1,0 +1,11 @@
+homeowner-parser/
+├── public/               # Front-end files
+│   ├── index.php         # CSV upload page
+│   ├── upload.php        # Back-end processing
+├── src/                  # Core logic
+│   ├── Parser.php        # CSV parsing logic
+├── data/                 # Uploaded CSV files
+├── composer.json         # Composer dependencies
+├── composer.lock         # Dependency lock file
+├── Dockerfile            # Docker configuration
+├── docker-compose.yml    # Docker Compose configuration
